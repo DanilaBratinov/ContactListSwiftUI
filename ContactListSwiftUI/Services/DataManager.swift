@@ -14,7 +14,7 @@ class DataManager {
     
     let surnames = ["Robertson", "Butler", "Pennyworth", "Smith", "Murphy", "Black", "Dow", "Williams", "Jankin", "Isaacson"]
     
-    let mails = ["@mail.ru", "@icloud.com", "gmail.com"]
+    let mails = ["@mail.ru", "@icloud.com", "@gmail.com"]
 
     var phoneNumber: [String] {
         var number: [String] = []
