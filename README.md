@@ -11,8 +11,9 @@
 > *```Tabbar```*
 
 >> Демонстрация готового проекта:
->>![](Simulator-Screen-Recording-iPhone-14-Pro-2023-01-25-at-00.18.28.giff)
+>>![](Simulator-Screen-Recording-iPhone-14-Pro-2023-01-25-at-00.18.28.gif)
 
+____
 `DataManager()` делаю синглтоном и заполняю данными, используемыми в `Person`:
 
 * [DataManager](ContactListSwiftUI/Services/DataManager.swift)  
