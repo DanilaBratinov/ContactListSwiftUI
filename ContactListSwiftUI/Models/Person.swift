@@ -23,23 +23,17 @@ extension Person {
         let names = DataManager.shared.names.shuffled()
         let surnames = DataManager.shared.surnames.shuffled()
         let phoneNumbers = DataManager.shared.phoneNumber.shuffled()
+        let mails = DataManager.shared.mails
         
         let maxIndex = min(names.count, surnames.count)
-        
-        enum Mails: String, CaseIterable {
-            case mail = "@mail.ru"
-            case icloud = "@icloud.ru"
-            case gmail = "@gmail.com"
-        }
-        let emails = Mails.allCases
-        
+    
         for index in 0..<maxIndex {
             person.append(
                 Person(
                     name: names[index],
                     surname: surnames[index],
                     phoneNumber: phoneNumbers[index],
-                    email: "\(names[index]).\(surnames[index])\(emails.randomElement()?.rawValue ?? Mails.mail.rawValue)"
+                    email: "\(names[index]).\(surnames[index])\(mails.randomElement() ?? "@mail.ru")"
                 )
             )
         }

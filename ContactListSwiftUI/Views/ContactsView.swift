@@ -13,10 +13,7 @@ struct ContactsView: View {
     
     var body: some View {
         NavigationStack {
-            VStack {
-                ContactListView(contactList: contactList)
-            }
-            .navigationTitle("Contact List")
+            ContactListView(contactList: contactList)
         }
     }
 }
