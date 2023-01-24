@@ -14,9 +14,14 @@ class DataManager {
     
     let surnames = ["Robertson", "Butler", "Pennyworth", "Smith", "Murphy", "Black", "Dow", "Williams", "Jankin", "Isaacson"]
     
-    let phoneNumber = "+7\(Int.random(in: 100000000000...9999999999))"
-
-    let email = ["dasdasd"]
+    var phoneNumber: [String] {
+        var number: [String] = []
+        
+        for _ in 0...names.count {
+            number.append("+7\(Int.random(in: 100000000...999999999))")
+        }
+        return number
+    }
     
     private init() {}
 }

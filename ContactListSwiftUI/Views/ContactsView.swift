@@ -15,7 +15,8 @@ struct ContactsView: View {
         NavigationStack {
             VStack {
                 ContactListView(contactList: contactList)
-            }.navigationTitle("Contacts")
+            }
+            .navigationTitle("Contact List")
         }
     }
 }

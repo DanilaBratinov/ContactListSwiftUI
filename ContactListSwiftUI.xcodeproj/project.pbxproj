@@ -44,6 +44,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		45C389AF298042AC00EB7972 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				45D12FE929800B0300408D06 /* ContentView.swift */,
+				45D12FF529800C9300408D06 /* ContactsView.swift */,
+				45D12FFC2980113600408D06 /* ContactListView.swift */,
+				45D12FFE2980161900408D06 /* PersonView.swift */,
+				45D12FF729800C9E00408D06 /* NumbersView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		45D12FDB29800B0300408D06 = {
 			isa = PBXGroup;
 			children = (
@@ -66,11 +78,7 @@
 				45D12FE729800B0300408D06 /* ContactListSwiftUIApp.swift */,
 				45D1300229802DE700408D06 /* Services */,
 				45D12FFB2980103400408D06 /* Models */,
-				45D12FE929800B0300408D06 /* ContentView.swift */,
-				45D12FF529800C9300408D06 /* ContactsView.swift */,
-				45D12FFC2980113600408D06 /* ContactListView.swift */,
-				45D12FFE2980161900408D06 /* PersonView.swift */,
-				45D12FF729800C9E00408D06 /* NumbersView.swift */,
+				45C389AF298042AC00EB7972 /* Views */,
 				45D12FEB29800B0500408D06 /* Assets.xcassets */,
 				45D12FED29800B0500408D06 /* Preview Content */,
 			);
