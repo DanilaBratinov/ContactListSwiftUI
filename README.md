@@ -11,8 +11,7 @@
 > *```Tabbar```*
 
 >> Демонстрация готового проекта:
-
-![](Simulator-Screen-Recording-iPhone-14-Pro-2023-01-25-at-00.18.28.gif)
+>>![](Simulator-Screen-Recording-iPhone-14-Pro-2023-01-25-at-00.18.28.giff)
 
 `DataManager()` делаю синглтоном и заполняю данными, используемыми в `Person`:
 
