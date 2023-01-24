@@ -36,6 +36,11 @@ struct PersonView: View {
 
 struct PersonView_Previews: PreviewProvider {
     static var previews: some View {
-        PersonView(person: Person.getContacts().last!)
+        PersonView(person: Person.getContacts().last ?? Person(
+            name: "",
+            surname: "",
+            phoneNumber: "",
+            email: "")
+        )
     }
 }

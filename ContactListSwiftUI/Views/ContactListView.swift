@@ -8,15 +8,15 @@
 import SwiftUI
 
 struct ContactListView: View {
-    
     let contactList: [Person]
-    
+        
     var body: some View {
         List(contactList) { contact in
             NavigationLink(destination: PersonView(person: contact)) {
                 Text("\(contact.name) \(contact.surname)")
             }
         }
+        .navigationTitle("Contact List")
         .listStyle(.plain)
     }
 }
